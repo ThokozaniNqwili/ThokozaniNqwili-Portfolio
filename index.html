@@ -1,408 +1,645 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/8cec8e7539.js" crossorigin="anonymous"></script>
-   <link rel="stylesheet" href="./style/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/8cec8e7539.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./style/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
     <title>Portfolio</title>
-</head>
-<body>
-<!---===========LandingPage=========--->
-<section id="home">
+  </head>
+  <body>
+    <!---===========LandingPage=========--->
+    <section id="home">
+      <div container-fluid>
+        <img
+          src="assets/images/banner.jpg"
+          class="img-fluid position-relative"
+          alt="banner"
+        />
 
-  <div container-fluid>
+        <div class="heading">
+          <h2>Thokozani Nqwili</h2>
+          <p>An Aspiring <span>Web Developer </span></p>
+          <a href="#about"><button class="button">About Me</button></a>
+          <a href=""><button href="" class="button">Download CV</button></a>
+        </div>
+      </div>
 
-  <img src="assets/images/banner.jpg" class="img-fluid position-relative" alt="banner">
-  
-  <div class="heading">
-    <h2>Thokozani Nqwili</h2>
-    <p> An Aspiring <span>Web Developer</span> </p>
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Portfolio</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
 
-    <button href="#about" class="button">About Me</button >
-    <button href="" class="button">Download CV</button >
-  </div>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    About Me
+                  </a>
 
-</div>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li>
+                      <a class="dropdown-item" href="#about"
+                        >Professional Summary</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#education">Education</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#work">Work Experience</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#skills">My Skills</a>
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="#projects">My Projects</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#testimonial">Testimonial</a>
+                </li>
 
-<header>
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Portfolio</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                About Me
-              </a>
-              
-
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#about">Professional Summary</a></li>
-                <li><a class="dropdown-item" href="#education">Education</a></li>
-                <li><a class="dropdown-item" href="#work">Work Experience</a></li>
-                <li><a class="dropdown-item" href="#skills">My Skills</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#projects">My Projects</a></li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact Me</a>
+                </li>
               </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+    </section>
+
+    <!---=======About Me==============-->
+    <section id="about">
+      <h1>About Me</h1>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+            <img
+              class="img-fluid rounded w-75"
+              src="./assets/images/myPicture.jpg"
+              alt="MyPicture"
+            />
+          </div>
+
+          <div class="col-sm-8 fs-6">
+            <h3>An Aspiring Web Developer</h3>
+            <p>
+              I am a goal-driven Information Systems Graduate from the
+              University of Cape Town, I have passion for web application
+              development. I am capable of following industry and technological
+              trends, and I believe in innovation. I enjoy working with people
+              and solving problems.
+            </p>
+            <br />
+
+            <div class="row row-cols-2 fs-6">
+              <div class="col">Name: Thokozani Nqwili</div>
+              <div class="col">Birthday: 20 August 1999</div>
+              <div class="col">Degree: Bcom Information Systems</div>
+              <div class="col">Phone: 0812326542</div>
+              <div class="col">Email: simthokozile@gmail.com</div>
+              <div class="col">Address: Khayelitsha,Cape Town</div>
+              <div class="col">Driver's license: Yes</div>
+              <div class="col">Willing to relocate: Yes</div>
+            </div>
+            <a href="#contact"><button class="btnAbout">Hire Me</button></a>
+            <a href="#projects"><button class="btnAbout">My Work</button></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education">
+      <div class="container fluid text-center">
+        <h1>Education</h1>
+        <div class="education">
+          <i
+            class="fas fa-graduation-cap"
+            style="font-size: 48px; color: #ef798a"
+          ></i>
+          <ul>
+            <li>
+              <span>2022 - Present</span>
+              <p>Life Choices Academy</p>
             </li>
-              <li class="nav-item">
-              <a class="nav-link" href="#testimonial">Testimonial</a>
+            <li>
+              <span>2018 - 2021</span>
+              <p>Bcom Information Systems - University Of Cape Towm</p>
             </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact Me</a>
+            <li>
+              <span>2017</span>
+              <p>Matric - Centre of Science and Technology</p>
             </li>
-          </ul> 
+          </ul>
         </div>
       </div>
-    </nav>
-    </header>
-</section>
+    </section>
 
-<!---=======About Me==============-->
-<section id="about">
-  <h1>About Me</h1>
+    <section id="skills">
+      <h1>My Skills</h1>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8">
+            <h3>Technical Skills</h3>
+            <div class="skills position-relative">
+              <p class="text-sm-start position-relative text-dark">HTML</p>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-success"
+                  role="progressbar"
+                  style="width: 95%"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  95%
+                </div>
+              </div>
+              <br />
+              <p class="text-sm-start position-relative text-dark">CSS</p>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-info"
+                  role="progressbar"
+                  style="width: 92%"
+                  aria-valuenow="50"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  92%
+                </div>
+              </div>
+              <br />
+              <p class="text-sm-start position-relative text-dark">BOOTSTRAP</p>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-warning"
+                  role="progressbar"
+                  style="width: 90%"
+                  aria-valuenow="75"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  90%
+                </div>
+              </div>
+              <br />
+              <p class="text-sm-start position-relative text-dark">C#</p>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-danger"
+                  role="progressbar"
+                  style="width: 70%"
+                  aria-valuenow="100"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  70%
+                </div>
+              </div>
+              <br />
+              <p class="text-sm-start position-relative text-dark">SQL</p>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-dark"
+                  role="progressbar"
+                  style="width: 80%"
+                  aria-valuenow="100"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  80%
+                </div>
+              </div>
+              <br />
+              <p class="text-sm-start position-relative text-dark">Databases</p>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-primary"
+                  role="progressbar"
+                  style="width: 95%"
+                  aria-valuenow="100"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  82%
+                </div>
+              </div>
+              <br />
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <h3>Soft Skills</h3>
+            <div class="skills position-relative text-dark">
+              <ul>
+                <li class="text-sm-start">
+                  Problem solving and Critical thinking
+                </li>
+                <li class="text-sm-start">People and Interpersonal Skills</li>
+                <li class="text-sm-start">Self-learning</li>
+                <li class="text-sm-start">Time Management</li>
+                <li class="text-sm-start">Accountability</li>
+                <li class="text-sm-start">Creativity</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="timeline-section" id="work">
+      <h1 class="skiils">My work Experience</h1>
+      <div class="timeline-items">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">May 2022 - September 2022</div>
+          <div class="timeline-content">
+            <h3>Technical Support Consultant</h3>
+            <p class="text-sm-start">
+              Troubleshoot problems and diagnose and solve technical
+              issues.Assists walk in and booked customers in the iStore
+              environment with first line technical support and third-party
+              product connections, warranty repairs processing, data transfers
+              and back-ups
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">February 2020 - November 2021</div>
+          <div class="timeline-content">
+            <h3>Information Systems 1 Tutor</h3>
+            <p class="text-sm-start">
+              Introduce students to Information Systems from a business
+              perspective looking at information technologies and the use of
+              information in business.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">February 2020 - June 2020</div>
+          <div class="timeline-content">
+            <h3>Applying Database Principles Tutor</h3>
+            <p class="text-sm-start">
+              Introducing students to database concepts, advanced database
+              design and implementation and new developments in the database
+              field.Assist students explore different database architectures and
+              design approaches, data modelling techniques, data dictionaries,
+              data implementation, database security and administration.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <h1 class="projects">My Projects</h1>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="assets/images/foodies.png" alt="Avatar" style="width:300px;height:400px;">
+                </div>
+                <div class="flip-card-back">
+                  <div class="card-body text-center">
+                    <h5 class="card-title text-center">Foodies Market</h5>
+                    <p class="card-text">
+                      A food market e-commerce created using Bootsrap and HTML.
+                    </p>
+                  </div>
+                  <div class="card-body text-center">
+                    <a href="https://foodiesmarket.netlify.app/" class="card-link"
+                      >Live</a
+                    >
+                    <a
+                      href="https://github.com/ThokozaniNqwili/Foodies.git"
+                      class="card-link"
+                      >Github</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="assets/images/flipcards.jpg" alt="Avatar" style="width:300px;height:300px;">
+              </div>
+              <div class="flip-card-back">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Flip Cards</h5>
+                  <p class="card-text">
+                    A card with content on both sides, back and front, made with
+                    CSS and HTML
+                  </p>
+                </div>
   
+                <div class="card-body text-center">
+                  <a href="#https://myflipcards.netlify.app/" class="card-link"
+                    >Live</a
+                  >
+                  <a
+                    href="https://github.com/ThokozaniNqwili/Flip-Cards.git"
+                    class="card-link"
+                    >Github</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
       
-<div class="container">
-    <div class="row">
-      <div class="col-sm-4">
-        <img class="img-fluid rounded w-75" src="./assets/images/myPicture.jpg" alt="MyPicture">
-      </div>
-
-      <div class="col-sm-8 fs-6 ">
-        <h3>An Aspiring Web Developer</h3>
-        <p>I am a goal-driven Information Systems Graduate from the University of Cape Town, I have passion for web application development.
-          I am capable of following industry and technological trends, and I believe in innovation. I enjoy working with people and solving problems. </p><br>
-
-        <div class="row row-cols-2 fs-6">
-          <div class="col">Name: Thokozani Nqwili</div>
-          <div class="col">Birthday: 20 August 1999</div>
-          <div class="col">Degree: Bcom Information Systems</div>
-          <div class="col">Phone: 0812326542</div>
-          <div class="col">Email: simthokozile@gmail.com</div>
-          <div class="col">Address: Khayelitsha,Cape Town</div>
-          <div class="col">Driver's license: Yes</div>
-          <div class="col">Willing to relocate: Yes</div>
-        </div>
-
-        
- 
-      
-      <button href="#congitact" class="btnAbout">Hire Me</button >
-      <button href="#projects" class="btnAbout">My Work</button >
-    </div>
-    </div>
-
-  </div>
-
-  
-  
-</section>
-
-
-
-  <section id="education">
-  <div class= "container fluid text-center">
-  <h1>Education</h1>
-    <div  class="education" >
-      <i class='fas fa-graduation-cap' style='font-size:48px;color:#ef798a'></i>
-    <ul>
-      <li><span>2022 - Present</span>
-        <p>Life Choices Academy</p>
-      </li>
-      <li><span>2018 - 2021</span>
-        <p>Bcom Information Systems - University Of Cape Towm</p>
-      </li>
-      <li><span>2017</span>
-        <p>Matric - Centre of Science and Technology</p>
-      </li>
-    </ul>      
-</div>
-
-</div>
-
-</section>
-
-<section id="skills" >
-  <h1>My Skills</h1>
-   
-  <div class="container">
-
-    <div class="row">
-<div class="col-sm-8">
-  <h3>Technical Skills</h3>
-      <div class="skills position-relative ">
-
-        <p class="text-sm-start position-relative text-dark">HTML</p>
-          <div class="progress">
-            <div class="progress-bar bg-success" role="progressbar" style="width: 95%"  aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">95%</div>
-          </div>
-          <br>
-          <p class="text-sm-start position-relative text-dark">CSS</p>
-          <div class="progress">
-            <div class="progress-bar bg-info" role="progressbar" style="width: 92%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">92%</div>
-          </div>
-          <br>
-          <p class="text-sm-start position-relative text-dark">BOOTSTRAP</p>
-          <div class="progress">
-            <div class="progress-bar bg-warning" role="progressbar" style="width: 90%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">90%</div>
-          </div>
-          <br>
-          <p class="text-sm-start position-relative text-dark">C#</p>
-          <div class="progress">
-            <div class="progress-bar bg-danger" role="progressbar" style="width: 70%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">70%</div>
-          </div>
-          <br>
-          <p class="text-sm-start position-relative text-dark">SQL</p>
-          <div class="progress">
-            <div class="progress-bar bg-dark" role="progressbar" style="width: 80%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">80%</div>
-          </div>
-          <br>
-          <p class="text-sm-start position-relative text-dark">Databases</p>
-          <div class="progress">
-            <div class="progress-bar bg-primary" role="progressbar" style="width: 95%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">82%</div>
-          </div>
-          <br>
-      
-      </div>
-        
-
-      </div>
-      <div class="col-sm-4">
-        <h3>Soft Skills</h3>
-        <div class="skills position-relative text-dark ">
-        <ul>
-          <li class="text-sm-start">Problem solving and Critical thinking</li>
-          <li class="text-sm-start">People and Interpersonal Skills</li>
-          <li class="text-sm-start">Self-learning</li>
-          <li class="text-sm-start">Time Management</li>
-          <li class="text-sm-start">Accountability</li>
-          <li class="text-sm-start">Creativity</li>
-         </ul>
-      </div>
-</div>
-    </div>
-</div>
-  
-
-
-
-
-
-
-
- 
-</section>
-
-<section class="timeline-section" id="work">
-  <h1 class="skiils">My work Experience</h1>
-  <div class="timeline-items">
-    <div class="timeline-item">
-      <div class="timeline-dot"></div>
-      <div class="timeline-date">May 2022 - September 2022</div>
-      <div class="timeline-content ">
-        <h3>Technical Support Consultant</h3>
-        <p class="text-sm-start">Troubleshoot problems and diagnose and solve technical issues.Assists walk in and booked customers in the iStore environment with first line technical support and third-party product connections, warranty repairs processing, data transfers and back-ups</p>
-      </div>
-    </div>
-
-    <div class="timeline-item">
-      <div class="timeline-dot"></div>
-      <div class="timeline-date">February 2020 - November 2021</div>
-      <div class="timeline-content">
-        <h3>Information Systems 1 Tutor</h3>
-        <p class="text-sm-start">Introduce students to Information Systems from a business perspective looking at information technologies and the use of information in business.  </p>
-      </div>
-    </div>
-
-    <div class="timeline-item">
-      <div class="timeline-dot"></div>
-      <div class="timeline-date">February 2020 - June 2020</div>
-      <div class="timeline-content ">
-        <h3>Applying Database Principles Tutor</h3>
-        <p class="text-sm-start">Introducing students to database concepts, advanced database design and implementation and new developments in the database field.Assist students explore different database architectures and design approaches, data modelling techniques, data dictionaries, data implementation, database security and administration.</p>
-      </div>
-    </div>
-  </div>
-  
-  
-</section>
-
-<section id="projects">
-  <h1>My Projects</h1>
-  <div class="container">
-    <div class="row">
-
-      <div class="col">
-        <div class="card" style="width: 18rem;height: 30rem;">
-          <img src="assets/images/foodies.png" class="card-img-top w-10" alt="foodies">
-          <div class="card-body text-center">
-            <h5 class="card-title text-center">Foodies Market</h5>
-            <p class="card-text">A food market e-commerce created using Bootsrap and HTML. </p>
-          </div> 
-          <div class="card-body text-center">
-            <a href="https://foodiesmarket.netlify.app/" class="card-link">Live</a>
-            <a href="https://github.com/ThokozaniNqwili/Foodies.git" class="card-link">Github</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col">
-        <div class="card" style="width: 18rem;">
-          <img src="assets/images/flipcards.jpg" class="card-img-top w-10" alt="FlipCards">
-          <div class="card-body">
-            <h5 class="card-title text-center">Flip Cards</h5>
-            <p class="card-text">A card with content on both sides, back and front, made with CSS and HTML </p>
-          </div>
-          
-          <div class="card-body text-center">
-            <a href="#https://myflipcards.netlify.app/" class="card-link">Live</a>
-            <a href="https://github.com/ThokozaniNqwili/Flip-Cards.git" class="card-link">Github</a>
-          </div>
-        </div>
       </div>
       
-    </div>
-  </div>
-</section>
+    </section>
 
-<section class="reference" id="testimonial">
-  
-  <h1 class="testimonial">Testimonials</h1>
-  <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="assets/images/Oslin.jpg" class="img-box d-block w-20" alt="Lecturer">
-        <h3 class="item-ref text-center">Oslin Johnson <br> Lecturer </h3>
-        <p class="item-ref text-center">"Thokozani is a very diligent person with the will to push herself to attain her goals to the best of her ability and to her satisfaction. 
-          She doesn't let anything get her down and always makes it her duty to find  how she will understand things"</p>
-       
-        
+    <section class="reference" id="testimonial">
+      <h1 class="testimonial">Testimonials</h1>
+      <div
+        id="carouselExampleControlsNoTouching"
+        class="carousel slide"
+        data-bs-touch="false"
+        data-bs-interval="false"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="assets/images/Oslin.jpg"
+              class="img-box d-block w-20"
+              alt="Lecturer"
+            />
+            <h3 class="item-ref text-center">
+              Oslin Johnson <br />
+              Lecturer
+            </h3>
+            <p class="item-ref text-center">
+              "Thokozani is a very diligent person with the will to push herself
+              to attain her goals to the best of her ability and to her
+              satisfaction. She doesn't let anything get her down and always
+              makes it her duty to find how she will understand things"
+            </p>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/images/duwayne.jpg"
+              class="img-box d-block w-20"
+              alt="Manager"
+            />
+            <h3 class="item-ref text-center">
+              Duwayne Jewell <br />
+              iStore Manager
+            </h3>
+            <p class="item-ref text-center">
+              "Throughout the time with our organization, she demonstrated
+              critical skills that would make her an excellent employee at any
+              company.Thokozani did a terrific job in her position and was an
+              asset to our Support team"
+            </p>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/images/tsepang.jpg"
+              class="img-box d-block w-20"
+              alt="Friend"
+            />
+            <h3 class="item-ref text-center">
+              Tsepang Tihoeng-Matebese <br />
+              Friend
+            </h3>
+            <p class="item-ref text-center">
+              "Thokozani is a hardworking, diligent worker. She never gives up
+              on difficult tasks, she always strives to achive the best results.
+              When met with opportunities, she tries to maximise on them & she
+              is not afraid to try things outside of her comfort zone"
+            </p>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/images/Buhle.jpg"
+              class="img-box d-block w-20"
+              alt="Peer"
+            />
+            <h3 class="item-ref text-center">
+              Buhle Qampi <br />
+              Life Choices Academy Peer
+            </h3>
+            <p class="item-ref text-center">
+              "Thoko's work is exceptionally well curated. Her code is neat and
+              coherent. She's a team player and a good addition to any
+              workplace"
+            </p>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/images/myPicture.jpg"
+              class="img-box d-block w-20"
+              alt="collegue"
+            />
+            <h3 class="item-ref text-center">
+              Phelo Madubela <br />
+              Former Colleague
+            </h3>
+            <p class="item-ref text-center">
+              "Thokozani is a young dedicated individual with a positive mind
+              set. I got to see this because we worked together, her work ethic
+              is impeccable. She always willing to help and learn, she works
+              with a smile on her face. She's definetly loyal, trustworthy and
+              reliable"
+            </p>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControlsNoTouching"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControlsNoTouching"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-      <div class="carousel-item ">
-        <img src="assets/images/duwayne.jpg" class="img-box d-block w-20" alt="Manager">
-        <h3 class="item-ref text-center">Duwayne Jewell <br> iStore Manager</h3>
-        <p class="item-ref text-center">"Throughout the time with our organization, she demonstrated critical skills that would make her an excellent
-          employee at any company.Thokozani did a terrific job in her position and was an asset to our Support team"
-        </p>
-      </div>
-      <div class="carousel-item ">
-        <img src="assets/images/tsepang.jpg" class="img-box d-block w-20" alt="Friend">
-        <h3 class="item-ref text-center">Tsepang Tihoeng-Matebese <br> Friend</h3>
-        <p class="item-ref text-center">"Thokozani is a hardworking, diligent worker. She never gives up on difficult tasks, she always strives to achive the best results.
-          When met with opportunities, she tries to maximise on them & she is not afraid to try things outside of her comfort zone"</p>
-      </div>
-      <div class="carousel-item">
-        <img src="assets/images/Buhle.jpg" class="img-box d-block w-20" alt="Peer">
-        <h3 class="item-ref text-center">Buhle Qampi <br> Life Choices Academy Peer</h3>
-        <p class="item-ref text-center">"Thoko's work is exceptionally well curated. Her code is neat and coherent. She's a team player and a good addition to any workplace"</p>
-      </div>
-      <div class="carousel-item">
-        <img src="assets/images/myPicture.jpg" class="img-box d-block w-20" alt="collegue">
-        <h3 class="item-ref text-center">Phelo Madubela <br> Former Colleague</h3>
-        <p class="item-ref text-center">"Thokozani is a young dedicated individual with a positive mind set. I got to see this because we worked together, her 
-          work ethic is impeccable. She always willing to help and learn, she works with a smile on her face. She's definetly loyal, trustworthy and reliable"</p>
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
+    </section>
 
-  
-</section>
+    <section id="contact" class="contact">
+      <h1>Contact Me</h1>
+      <p>Let's get in touch</p>
 
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8">
+            <form action="https://formspree.io/f/myyvbwyw" method="POST">
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label"
+                  >Name</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="Name and Surname"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label"
+                  >Email_address</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="Email Address"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label"
+                  >Phone Number</label
+                >
+                <input
+                  type="number"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="+27 82 656 5465"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label"
+                  >Message</label
+                >
+                <textarea
+                  class="form-control"
+                  id="exampleFormControlTextarea1"
+                  rows="5"
+                ></textarea>
+              </div>
 
+              <div class="col-auto">
+                <button
+                  type="submit"
+                  class="btn"
+                  data-bs-toggle="modal"
+                  data-bs-target="#messageModal"
+                >
+                  Send Message
+                </button>
+              </div>
+            </form>
+          </div>
+          <div class="col-md-4">
+            <div class="icons">
+              <div class="row">
+                <div class="col-sm-4">
+                  <i class="fas fa-phone" style="font-size: 36px"></i>
+                </div>
+                <div class="col-sm-8 fs-6">
+                  Call me on:<br />+27 81 232 6542
+                </div>
+              </div>
 
-<section id="contact" class="contact">
-  <h1>Contact Me</h1>
-  <p>Let's get in touch</p>
+              <div class="row">
+                <div class="col-sm-4">
+                  <i class="far fa-envelope-open" style="font-size: 36px"></i>
+                </div>
+                <div class="col-sm-8 fs-6">simthokozile@gmail.com</div>
+              </div>
 
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-8">
-        <form action="https://formspree.io/f/myyvbwyw" method="POST">
-          <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Name</label>
-            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name and Surname" required>
-          </div>
-          <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Email_address</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email Address" required>
-          </div>
-          <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Phone Number</label>
-            <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="+27 82 656 5465" required>
-          </div>
-          <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
-          </div>
-  
-          <div class="col-auto">
-            <button type="submit" class="btn" data-bs-toggle="modal" data-bs-target="#messageModal">Send Message</button>
-          </div>
-  
-  </form>
-      </div>
-      <div class="col-md-4">
-        <div class="icons">
-          <div class="row">
-            <div class="col-sm-4"><i class='fas fa-phone' style='font-size:36px'></i></div>
-            <div class="col-sm-8 fs-6"> Call me on:<br>+27 81 232 6542</div>
-          </div>
-    
-          <div class="row">
-            <div class="col-sm-4"><i class='far fa-envelope-open' style='font-size:36px'></i></div>
-            <div class="col-sm-8 fs-6 ">simthokozile@gmail.com</div>
-          </div>
-    
-    
-          <div class="row">
-            <div class="col-sm-4"><i class='fas fa-map-marker-alt' style='font-size:36px'></i></div>
-            <div class="col-sm-8 fs-6">Khayelitsha, Cape Town</div>
+              <div class="row">
+                <div class="col-sm-4">
+                  <i class="fas fa-map-marker-alt" style="font-size: 36px"></i>
+                </div>
+                <div class="col-sm-8 fs-6">Khayelitsha, Cape Town</div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-  
-</section>
+    </section>
 
-<!---=========Footer===========-->
-<footer>
-  <ul class="social_icon">    
-          <a href='https://www.linkedin.com/in/thokozani-nqwili-5b5a8517a'><i class="fab fa-linkedin-in"></i></a>
-          <a href="https://www.instagram.com/_thokzin/"><i class="fab fa-instagram"></i> </a> 
-          <a href="https://github.com/ThokozaniNqwili"><i class="fa-brands fa-github"></i></a>
-  </ul>
-  <ul class="menu">
-    <li><a href="#">Home</a></li>
-    <li><a href="#about">About Me</a></li>
-    <li><a href="#testimonial">Testimonial</a></li>
-    <li><a href="#contact">Contact Me</a></li>
-  </ul>
-  <p>@2022 Thokozani Nqwili | All Rights Reserved</p>
+    <!---=========Footer===========-->
+    <footer>
+      <ul class="social_icon">
+        <a href="https://www.linkedin.com/in/thokozani-nqwili-5b5a8517a"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+        <a href="https://www.instagram.com/_thokzin/"
+          ><i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://github.com/ThokozaniNqwili"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+      </ul>
+      <ul class="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#testimonial">Testimonial</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+      </ul>
+      <p>@2022 Thokozani Nqwili | All Rights Reserved</p>
+    </footer>
 
-</footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
