@@ -26,13 +26,40 @@ h1{
     padding: 50px;
 
 }
-.heading span{
-    color: var(--secondarycolor);
-    font-size: 10px;
-    font-weight: bold;
-   
-}
+
 @media (min-width: 300px)  {
+    
+    .heading p{
+        font-size: 10px;
+        margin-left: 17px ;
+        margin-top: 5px;
+        overflow: hidden;
+        border-right: .15em solid var(black);
+        white-space: nowrap;
+        margin: 0 auto;
+        letter-spacing: .15em;
+        animation: typing 5s steps(40, end),
+        blink-caret .75s step-end infinite;
+        animation-iteration-count: infinite;
+    }
+    .heading span{
+        color: var(--secondarycolor);
+        font-size: 12px;
+        font-weight: bold;
+       
+    }
+    @keyframes typing {
+        0% { width: 0 }
+        50% { width: 100% }
+      }
+
+
+
+@keyframes blink-caret {
+        from, to { border-color: transparent }
+        50% { border-color:black; }
+      }
+
     .heading button{
         border: 1px solid transparent;
         background-color: var(--secondarycolor);
@@ -81,6 +108,18 @@ h1{
         blink-caret .75s step-end infinite;
         animation-iteration-count: infinite;
     }
+    @keyframes typing {
+        0% { width: 0 }
+        50% { width: 100% }
+      }
+
+
+
+@keyframes blink-caret {
+        from, to { border-color: transparent }
+        50% { border-color:black; }
+      }
+    
 
     .heading span{
         color: var(--secondarycolor);
