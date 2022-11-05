@@ -428,6 +428,10 @@ timeline-section{
     padding: 10px;
     font-style: italic;
 }
+.contact .detail{
+    font-weight: bold;
+    padding-top: 30px;
+}
 .contact .icons{
    display: flex;
    flex-direction: column;
