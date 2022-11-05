@@ -26,7 +26,13 @@ h1{
     padding: 50px;
 
 }
-@media (min-width: 375px)  {
+.heading span{
+    color: var(--secondarycolor);
+    font-size: 10px;
+    font-weight: bold;
+   
+}
+@media (min-width: 300px)  {
     .heading button{
         border: 1px solid transparent;
         background-color: var(--secondarycolor);
