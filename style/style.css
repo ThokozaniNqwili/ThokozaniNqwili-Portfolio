@@ -28,6 +28,11 @@ h1{
 }
 
 @media (min-width: 300px)  {
+    .heading{
+        position: absolute;
+        top: 30%;
+        padding-left: 100px;
+    }
     
     .heading p{
         font-size: 10px;
