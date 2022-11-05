@@ -26,7 +26,7 @@ h1{
     padding: 50px;
 
 }
-
+/* starting from 300px screen size */
 @media (min-width: 300px)  {
     
     
@@ -87,7 +87,7 @@ h1{
 
  }
 }
-
+/* starting from 576px screen size */
 @media (min-width: 576px)  { 
     .heading{
         position: absolute;
@@ -166,6 +166,7 @@ h1{
 
  }
 }
+/* starting from 1200px screen size */
 @media (min-width: 1200px)  { 
     .heading{
         position: absolute;
